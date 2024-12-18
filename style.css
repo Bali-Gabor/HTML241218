@@ -1,0 +1,91 @@
+body{
+    width: 1000px;
+    background-color: rgb(212, 235, 224);
+    margin: 0 auto;
+
+}
+header{
+    background-image: url(./kerttervezes-1.png);
+    background-position: center;
+    height: 300px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    color:white;
+    letter-spacing: 5px;
+    line-height: 400px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+}
+
+#menu{
+    text-align: center;
+    background-color: rgb(20, 222, 141);
+    color: black;
+    height: 30px;
+    padding: 14px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 800px 200px;
+    background-color: rgb(200, 255, 237);
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color:black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+#elso{
+    text-align: justify;
+    padding: 10px;
+}
+#masodik{
+    background-image: url(./oldal.jpg);
+    background-position: top;
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+img{
+    width: 600px;
+    padding-left: 100px;
+    border-radius: 50%;
+}
+footer{
+    background-color: rgb(20, 222, 141);
+    padding:10px;
+}
+#mail{
+    display: inline-block;
+    text-align: left;
+    width: 480px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+#vissza{
+    display: inline-block;
+    text-align: right;
+    font-weight: bold;
+    width: 480px;
+}
+#elsogal{
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+#elsogal.img{
+    width: 200px;
+}
